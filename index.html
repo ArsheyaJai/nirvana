@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/icon" href="/images/nirvana_logo.jpeg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- links style.css to website -->
+<link href="style.css" rel="stylesheet" />  
+
+<title>nirvana</title>
+
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightyellow;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: thistle;
+  color: white;
+}
+
+.active {
+  background-color: orange;
+  color: lightyellow;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.flex-item-left {
+  //background-color: thistle;
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 480px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+
+//dropdown styles
+.dropdown {
+  float: align;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: orange;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  //margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: thistle;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: turquoise;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: thistle;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+
+</head>
+
+ <body style="background-color:khaki;">
+      <div class="text">
+        <style>
+        h1 {text-align: center;}
+        </style>
+        <h1 style="background-color: thistle">nirvana</h1>
+      </div>
+    </div>
+  </body>
+<head>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: turquoise;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: thistle;
+  color: lightyellow;
+}
+
+.active {
+  background-color: cadetblue;
+  color: lightyellow;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item-left {
+  //background-color: thistle;
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 480px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+
+//dropdown styles
+.dropdown {
+  float: align;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: turquoise;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  //margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background color of dropdown tabs*/
+  background-color: thistle;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: purple;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+</style>
+</head>
+
+</head>
+<body>
+
+<div class="tab">
+
+  <ul>
+    <li>
+      <div class="tab;">
+        <a class="active" href="/index.html">Home</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="tab">
+        <a href="/genres/pop.html">Pop</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="tab">
+        <a href="/genres/rap.html">Rap</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="tab">
+        <a href="/genres/indie.html">Indie</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="tab">
+        <a href="/genres/bolly.html">Bollywood</a>
+      </div>
+    </li>
+
+    <li>
+      <div class="dropdown">
+        <button class="dropbtn">Moods
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <!--tab names-->
+        <div class="dropdown-content">
+          <a href="/Song Recs/TSSR.html">Happy</a>
+          <a href="/Song Recs/AGSR.html">Sad</a>
+          <a href="/Song Recs/MMSR.html">Peaceful</a>
+          <a href="/Song Recs/DLSR.html">Angry</a>
+        </div>
+      <div>
+    </li>
+  </ul>
+
+</div>
+
+<hr>
+
+<style>
+h2 {text-align: center; background-color: cadetblue; color: white;}  
+</style> 
+
+<style>
+  h3 {text-align: center}
+</style>
+
+<h1>inhale, exhale, and experience...</h1>
+<h1><img src="\images\nirvana_meaning.jpeg" width="350" height="300";></h1>
+
+<h3>nirvana aims to bring listeners tranquility, bliss, and still waters; the eye of the storm.  Now, this may be many different things for differnt people, which is why this service includes a variety of genres, one that brings a moment of peace to the listener.</h3>
+
+<h2>"But only art and music have the power to bring peace." ~ Yoko Ono</h2>

@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* H1 will be in pink */
+h1 {
+  color: purple;
+}
+
+ul {
+  background-color: cadetblue;
+}
+
+h3 {
+  width: 100%;
+  background-color: thistle;
+}
