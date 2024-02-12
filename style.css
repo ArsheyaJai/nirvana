@@ -16,3 +16,18 @@ h3 {
   width: 100%;
   background-color: thistle;
 }
+
+footer {
+  text-align: center;
+}
+
+li {
+  color: turquoise;
+  text-align: center;
+  padding: 3px 5px;
+  margin: 2px
+}
+
+body {
+  background-color: khaki;
+}
