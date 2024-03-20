@@ -20,3 +20,4 @@ if (today = release || release < today) {
   text = "TTPD did not drop yet :(";
 }
 console.log(text);
+
