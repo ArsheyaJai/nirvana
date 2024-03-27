@@ -1,3 +1,6 @@
+let header = document.getElementById("header");
+header.innerHTML = "inhale, exhale, and experience...";
+
 let year = 2024;
 let artist = "Taylor Swift";
 let date = 10+9;
@@ -13,7 +16,7 @@ let release = new Date();
 //date of album release
 release.setFullYear(2024, 3, 19);
 
-if (today = release || release < today) {
+if (today == release || release < today) {
   //TTPD = The Tortured Poet's Department
   text = "Check out TTPD!";
 } else {
